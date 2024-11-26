@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RefactoredMVC.Core.Models.Flat">
+    <Position X="3.5" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BAACAEAAAABgAAAIAAAAIAAAAAAAgAACACAIACAAAAg=</HashCode>
+      <FileName>Models\Flat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefactoredMVC.Core.Models.FlatContract">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAECAAAAAAAAAAAAAAAAGBAgCAAAAgAAAAIAAEAAAAA=</HashCode>
+      <FileName>Models\FlatContract.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefactoredMVC.Core.Models.Hotel">
+    <Position X="11.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAACgAAAAABgAAAIAAAAAAAAAAAAAAACAAAAACAAAAg=</HashCode>
+      <FileName>Models\Hotel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefactoredMVC.Core.Models.House">
+    <Position X="5.5" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BAACAEAAAABgAAAIAAAAIAAAAAAAgAACACAIACAAAAg=</HashCode>
+      <FileName>Models\House.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefactoredMVC.Core.Models.HouseContract">
+    <Position X="1" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAECAAAAAAAAAAAAAAAACBAgCAAgAAAAAAIAAEAAAAA=</HashCode>
+      <FileName>Models\HouseContract.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefactoredMVC.Core.Models.Landlord">
+    <Position X="5.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAACAEAAACAAAAAAEAAAAAAgAAAABAAAAAIQAAAAABA=</HashCode>
+      <FileName>Models\Landlord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefactoredMVC.Core.Models.LandlordAdditionalInfo">
+    <Position X="7" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAACAQABAAAAAAAAIIAAAAAAQg=</HashCode>
+      <FileName>Models\LandlordAdditionalInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefactoredMVC.Core.Models.Lessee">
+    <Position X="9.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAACAAAAACAAAAAAEAAAAAAgAAAABAAAAAAQAAAAABA=</HashCode>
+      <FileName>Models\Lessee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefactoredMVC.Core.Models.LesseeAdditionalInfo">
+    <Position X="1" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAECAAAAAAAAAAAAAAAAAAQADAAAAAAAAIAAAAAAAQg=</HashCode>
+      <FileName>Models\LesseeAdditionalInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefactoredMVC.Core.Models.Room">
+    <Position X="3.25" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BAACAEAAAAAgAAAAAAAAAAAAAAAAgAAAACBIAAAAAAA=</HashCode>
+      <FileName>Models\Room.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefactoredMVC.Core.Models.RoomContract">
+    <Position X="9.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAECAAACAAAAAAAAABAACBAgCAAAAAAAAAIAAEAAAAA=</HashCode>
+      <FileName>Models\RoomContract.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
