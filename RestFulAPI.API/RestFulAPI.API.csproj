@@ -28,7 +28,7 @@
   <ItemGroup>
     <ProjectReference Include="..\RestFulAPI.Application\RestFulAPI.Application.csproj" />
     <ProjectReference Include="..\RestFulAPI.Core\RestFulAPI.Core.csproj" />
-    <ProjectReference Include="..\RestfulAPI.DataAccess\RestFulAPI.DataAccess.csproj" />
+    <ProjectReference Include="..\RestFulAPI.DataAccess\RestFulAPI.DataAccess.csproj" />
   </ItemGroup>
 
 </Project>
