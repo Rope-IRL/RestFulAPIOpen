@@ -1,0 +1,42 @@
+.edit-self-info{
+    flex:1;
+}
+
+.user-inputs{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    gap:16px;
+}
+
+.user-inputs--container{
+    display: flex;
+    flex-direction: column;
+    gap:8px
+}
+
+.container--header{
+    font-size:1.2rem;
+    font-weight:500;
+}
+
+.container--input{
+    padding:16px;
+    border:none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight:400;
+}
+
+.edit-button{
+    padding:16px;
+    color:white;
+    font-size:1.1rem;
+    border:none;
+    border-radius:16px;
+    background-color: #003b95;
+}
+
+.edit-button:hover{
+    cursor:pointer;
+}

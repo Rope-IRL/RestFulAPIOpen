@@ -1,0 +1,123 @@
+header {
+    background-color: #003b95;
+    padding-left: 480px;
+    padding-right: 480px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.header-navigation {
+    background-color: #003b95;
+    flex:1;
+}
+
+.header-navigation-center{
+    background-color: #003b95;
+    flex:1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header-navigation-links {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.header-links-navigation-link {
+    text-decoration: none;
+    transition-duration: 0.5s;
+    text-align: center;
+    color: whitesmoke;
+    font-style: normal;
+    font-size: 1.2rem;
+}
+
+.header-links-navigation-link:hover {
+    border-bottom: 2px solid;
+    border-color: whitesmoke;
+    transition-duration: 0s;
+}
+
+.header-links-navigation-active-link {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 24px;
+    border-color: whitesmoke;
+    transition-duration: 0.5s;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header-auth_buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding-top: 16px;
+}
+
+.header-auth_buttons-landlord-link {
+    text-decoration: none;
+    color: white;
+}
+
+.header-auth_buttons-lessee {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.header-auth_buttons-lessee-link {
+    background-color: whitesmoke;
+    text-decoration: none;
+    color: #4191eb;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 16px;
+    padding-left: 16px;
+    border: 1px solid;
+    border-radius: 4px;
+    border-color: #4191eb;
+}
+
+.user-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.user-container{
+    display: flex;
+    flex-direction: row;
+    gap:8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.exit-button{
+    padding:8px;
+    background-color: white;
+    color:#003b95;
+    font-size: 1.2rem;
+    border:none;
+    border-radius:12px;
+}

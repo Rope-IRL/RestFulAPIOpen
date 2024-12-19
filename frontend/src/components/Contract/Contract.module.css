@@ -1,0 +1,51 @@
+.contract-container{
+    flex:1;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+    border: 2px solid;
+    border-color:rgb(219, 219, 219);
+    border-radius: 8px;
+    font-size: 1.1rem;
+}
+
+.contract-header{
+    font-size: 1.3rem;
+    color:#003b95;
+}
+
+.dates-container{
+    display: flex;
+    flex-direction: row;
+    gap:16px;
+}
+
+
+
+.lessee-container{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.lessee-container-header{
+    font-size:1.2rem;
+    color:#164e83;
+}
+
+.landlord-container{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.landlord-container-header{
+    font-size:1.2rem;
+    color:#164e83;
+}
+
+.contract-container-cost{
+    font-size: 1.2rem;
+    font-weight: 600;
+}

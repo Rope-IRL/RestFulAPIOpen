@@ -1,0 +1,42 @@
+.calendar-container{
+    width: fit-content;
+}
+
+.calendar-container-header{
+    padding:8px;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.date-item{
+    padding:8px;
+    text-align: center;
+    color:rgba(124, 123, 123, 0.996);
+    font-weight: 400;
+}
+
+/* .available-date{
+    padding:8px;
+    text-align: center;
+}
+
+.available-date:hover{
+    background-color: rgb(161, 161, 161);
+    cursor: pointer;
+    color:white;
+}
+
+.not-available-date{
+    text-align: center;
+    padding:8px;
+    color:rgba(164, 164, 164, 0.464);
+}
+
+.cliked-date{
+    border-radius: 2px;
+    padding:8px;
+    text-align: center;
+    background-color: #164e83;
+    color:white;
+} */

@@ -1,0 +1,24 @@
+.available-date{
+    padding:8px;
+    text-align: center;
+}
+
+.available-date:hover{
+    background-color: rgb(161, 161, 161);
+    cursor: pointer;
+    color:white;
+}
+
+.not-available-date{
+    text-align: center;
+    padding:8px;
+    color:rgba(164, 164, 164, 0.464);
+}
+
+.clicked-date{
+    border-radius: 2px;
+    padding:8px;
+    text-align: center;
+    background-color: #164e83;
+    color:white;
+}

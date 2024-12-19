@@ -1,0 +1,19 @@
+networks:
+  dev:
+
+services:
+  frontend:
+    build: 
+      context: ./frontend
+    ports:
+      - "8000:8000"
+    networks:
+      - dev
+
+  backend:
+    build:
+      context: ./backend
+    ports:
+      - "29180:29180"
+    networks:
+      - dev

@@ -1,0 +1,51 @@
+.user-container-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.section-header {
+    padding: 16px;
+    font-size: 1.2rem;
+    font-weight: 400px;
+}
+
+.user-container-wrapper-cred {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-container-wrapper-bio {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 8px 8px 0px 0px;
+    box-shadow:
+        8px,
+        8px black;
+}
+.user-container-wrapper-bio-info {
+    display: flex;
+    flex-direction: row;
+    font-weight: 600;
+    padding: 16px;
+    background-color: white;
+    border-radius: 8px 8px 0px 0px;
+    box-shadow:
+        8px,
+        8px black;
+    border-bottom: 1px solid;
+    border-color: rgb(207, 207, 207);
+}
+
+.section-name {
+    font-weight: 400;
+    width: calc(16% - 12px);
+}
+
+.user-container-name-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}

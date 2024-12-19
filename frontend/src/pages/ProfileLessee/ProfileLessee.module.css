@@ -1,0 +1,137 @@
+.lessee-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 480px;
+    padding-right: 480px;
+    padding-top: 24px;
+    font-size: 1rem;
+    background-color: rgb(242, 242, 242);
+    height: 100%;
+}
+
+.lessee-container-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-header {
+    padding: 16px;
+    font-size: 1.2rem;
+    font-weight: 400px;
+}
+
+.lessee-container-wrapper-cred {
+    display: flex;
+    flex-direction: column;
+}
+
+.lessee-container-wrapper-bio {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 8px 8px 0px 0px;
+    box-shadow:
+        8px,
+        8px black;
+}
+.lessee-container-wrapper-bio-info {
+    display: flex;
+    flex-direction: row;
+    font-weight: 600;
+    padding: 16px;
+    background-color: white;
+    border-radius: 8px 8px 0px 0px;
+    box-shadow:
+        8px,
+        8px black;
+    border-bottom: 1px solid;
+    border-color: rgb(207, 207, 207);
+}
+
+.section-name {
+    font-weight: 400;
+    width: calc(16% - 24px);
+}
+.lessee-container-name-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.your-choice {
+    padding-top: 16px;
+    padding-right: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: calc(20%);
+    border-right: 2px solid;
+    border-color: rgb(207, 207, 207);
+}
+
+.choice-header {
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.choice-button {
+    padding-inline: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+    background-color: rgb(250, 250, 250);
+    text-align: left;
+    font-size: 0.9rem;
+    border-left: 2px solid;
+    border-color: #003b95;
+}
+
+.choice-button:hover {
+    cursor: pointer;
+}
+
+.lessee-container-all-information {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex: 1;
+}
+
+.lessee-container-editing {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.lessee-container-editing-edit {
+    padding: 16px;
+    text-decoration: none;
+    background-color: #003b95;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    min-width: 48px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.lessee-container-editing-delete {
+    padding: 16px;
+    background-color: white;
+    color: Red;
+    text-align: center;
+    border: none;
+    font-size: 1rem;
+}
+
+.lessee-container-editing-delete:hover {
+    cursor: pointer;
+}

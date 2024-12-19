@@ -1,0 +1,108 @@
+.form-wrapper{
+    background-image: linear-gradient(#003b95 50%, white 50%);
+    padding-left: 400px;
+    padding-right: 400px;
+}
+.form_container{
+    border: 2px solid;
+    border-color: orange;
+    border-radius: 8px;
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    padding: 4px;
+}
+.form_container-city_input{
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: whitesmoke;
+    font-size: larger;
+    font-weight: 500;
+    border: 2px solid; 
+    border-color:orange;
+    border-radius: 4px;
+    flex-grow: 2;
+}
+.form_container-city_input:focus{
+    color: rgb(104, 103, 103);
+}
+.form_container-calendar_container{
+    padding: 8px;
+    background-color: whitesmoke;
+    border: 2px solid; 
+    border-color:orange;
+    flex-grow: 1;
+    border-radius: 4px;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.form_container-calendar_container-start_date{
+    font-size:  1.1rem;
+    background-color: whitesmoke;
+    font-weight: 400;
+    border: none;
+    border-radius: 4px;
+}
+
+.form_container-calendar_container-start_date:hover{
+    cursor:pointer;
+}
+
+.dash{
+    font-size: large;
+}
+
+.form_container-calendar_container-end_date{
+    font-size:  1.1rem;
+    background-color: whitesmoke;
+    font-weight: 400;
+    border:none;
+    border-radius: 4px;
+
+}
+
+.form_container-calendar_container-end_date:hover{
+    cursor:pointer;
+}
+
+.form_container-search_button{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: rgb(10, 114, 212);
+    font-size: x-large;
+    color:white;
+    border: 2px solid; 
+    border-color:orange;
+    border-radius: 8px;
+    flex-grow: 1;
+    
+}
+
+.invisible{
+    display: none;
+}
+
+.calendar-wrapper{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.calendar-wrapper-container{
+    position: absolute;
+    z-index: 0;
+    background-color: white;
+    width:fit-content;
+    display: flex;
+    flex-direction: row;
+    gap:16px;
+    padding:16px;
+    border: 2px solid;
+    border-radius: 8px;
+    border-color: rgba(214, 214, 214, 0.377);
+    box-shadow: 2px 2px 2px;
+}

@@ -1,0 +1,89 @@
+.property-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+}
+
+.house-info{
+    padding-left: 480px;
+    padding-right: 480px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.house-container--upper-information{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.house-container--upper-information--header{
+    font-size: 1.5rem;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.house-container--upper-information--mark{
+    background-color: #164e83;
+    color: white;
+    font-size: medium;
+    font-weight:400;
+    padding: 8px;
+    border-radius: 20% 20% 20% 0%;
+    font-size: 1.2rem;
+}
+
+.house-container--upper-information--location{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.house-container-pictures{
+    padding-top:20px;
+    display: flex;
+    flex-direction: row;
+    gap:4px;
+}
+
+.house-container-small--small-picture{
+    object-fit: fill;
+    max-width: 20rem;
+}
+
+.big--picture{
+    object-fit: fill;
+    max-width: 40.5rem;
+    max-height: 40.5rem;
+}
+
+.house-container-description{
+    padding-top: 1rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align:justify;
+}
+
+.blue-text{
+    color:#164e83;
+}
+
+.facilities-container{
+    padding-top: 1rem;
+}
+
+.facilities-container--header{
+    font-size: 1.5rem;
+    color:#0a72d4;
+}
+
+.facilities-container--body{
+    padding-top: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}

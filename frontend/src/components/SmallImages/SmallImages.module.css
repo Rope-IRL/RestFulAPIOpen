@@ -1,0 +1,10 @@
+.flat-container-small--small-picture{
+    object-fit: fill;
+    max-width: 20rem;
+}
+
+.big--picture{
+    object-fit: fill;
+    max-width: 40.5rem;
+    max-height: 40.5rem;
+}
