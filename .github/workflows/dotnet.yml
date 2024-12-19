@@ -24,4 +24,4 @@ jobs:
     - name: Build
       run: dotnet build backend/RestFulAPI.API/RestFulAPI.API.csproj --no-restore
     - name: Test
-      run: dotnet test backend/RentProjectTests/RentProjectTests.csproj --no-build --verbosity normal
+      run: dotnet test backend/RentProjectTests/RentProjectTests.csproj
